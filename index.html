@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Carrito</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script defer src="js/main.js"></script>
+
+</head>
+
+<body>
+    <article>
+        <h1>PRODUCTOS</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th class="margen">ID</th>
+                    <th>DESCRIPCION</th>
+                    <th>PRECIO</th>
+                    <th>PRECIO FINAL</th>
+                </tr>
+            </thead>
+            <tbody id="lista">
+            </tbody>
+        </table>
+    </article>
+    <article>
+
+        <h1>CARRITO</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th class="margen">ID</th>
+                    <th>DESCRIPCION</th>
+                    <th>PRECIO</th>
+                    <th>PRECIO FINAL</th>
+                </tr>
+            </thead>
+            <tbody id="tabla">
+            </tbody>
+    </article>
+    <footer>
+        <input type="text" placeholder="nombre del producto" tabindex="1" value="">
+        <button class="button" id="btn">AGREGAR PRODUCTO</button>
+        <button class="button" id="rmv">VACIAR CARRITO</button>
+    </footer>
+</body>
+
+</html>
